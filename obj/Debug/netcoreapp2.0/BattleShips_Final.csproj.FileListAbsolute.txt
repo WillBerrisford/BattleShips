@@ -1,0 +1,11 @@
+/home/will/Computerscience/School_Work/BattleShips_Final/BattleShips_Final/obj/Debug/netcoreapp2.0/BattleShips_Final.csprojResolveAssemblyReference.cache
+/home/will/Computerscience/School_Work/BattleShips_Final/BattleShips_Final/obj/Debug/netcoreapp2.0/BattleShips_Final.csproj.CoreCompileInputs.cache
+/home/will/Computerscience/School_Work/BattleShips_Final/BattleShips_Final/obj/Debug/netcoreapp2.0/BattleShips_Final.AssemblyInfoInputs.cache
+/home/will/Computerscience/School_Work/BattleShips_Final/BattleShips_Final/obj/Debug/netcoreapp2.0/BattleShips_Final.AssemblyInfo.cs
+/home/will/Computerscience/School_Work/BattleShips_Final/BattleShips_Final/bin/Debug/netcoreapp2.0/BattleShips_Final.deps.json
+/home/will/Computerscience/School_Work/BattleShips_Final/BattleShips_Final/bin/Debug/netcoreapp2.0/BattleShips_Final.runtimeconfig.json
+/home/will/Computerscience/School_Work/BattleShips_Final/BattleShips_Final/bin/Debug/netcoreapp2.0/BattleShips_Final.runtimeconfig.dev.json
+/home/will/Computerscience/School_Work/BattleShips_Final/BattleShips_Final/bin/Debug/netcoreapp2.0/BattleShips_Final.dll
+/home/will/Computerscience/School_Work/BattleShips_Final/BattleShips_Final/bin/Debug/netcoreapp2.0/BattleShips_Final.pdb
+/home/will/Computerscience/School_Work/BattleShips_Final/BattleShips_Final/obj/Debug/netcoreapp2.0/BattleShips_Final.dll
+/home/will/Computerscience/School_Work/BattleShips_Final/BattleShips_Final/obj/Debug/netcoreapp2.0/BattleShips_Final.pdb
