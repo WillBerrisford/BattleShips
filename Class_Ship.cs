@@ -47,6 +47,7 @@ namespace Class_Ship
             }
         }
 
+        //needs expanding
         //sets rotation function for setting rotation, requires user input
         public int Set_rotation(int user_rotation)
         {
