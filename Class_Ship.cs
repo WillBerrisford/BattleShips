@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
- 
+
 namespace Class_Ship
 {
 
@@ -18,10 +18,11 @@ namespace Class_Ship
         private int Length { get; set; } //length of the ship in grid squares.
 
         //default construtor, requires type of ship
-        public Ship(int Ship_type)
+        public Ship(int typeIN)
         {
             Sunk = false; //ships are not sunk when initialized
-            int type = Ship_type; //sets the type of ship
+			int type = typeIN; //sets the type of ship
+			Ship_type = type;
 
             switch (type) //depending on type of ship a different label will be given
             {
