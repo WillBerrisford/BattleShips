@@ -47,8 +47,9 @@ namespace Class_Grid
 
             Hit_coords[0].Add(Used_coords[0]);//These are the x coordinates
             Hit_coords[1].Add(Used_coords[1]);//These are the y coordinates
-			Ship_coords.RemoveAll(value => value == Used_coords[0]);
-			Ship_coords.RemoveAll(value => value == Used_coords[1]);
+			if (Ship_coords[0].Contains(Used_coords[0]) && Ship_coords[1].Contains(Used_coords[1]))
+			Ship_coords[0].RemoveAll(value => value == Used_coords[0]);
+			Ship_coords[1].RemoveAll(value => value == Used_coords[1]);
             return Hit_coords;
 
         }

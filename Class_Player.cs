@@ -15,33 +15,42 @@ namespace Class_Player
         public Player()
         { }
 
-        public List<int> choose_coords()
-        {
-            List<int> coordinates = new List<int>();
-            int x = new int();
-            int y = new int();
+		public List<int> choose_coords()
+		{
+			List<int> coordinates = new List<int>();
+			int x = new int();
+			int y = new int();
 
-            Console.WriteLine("Please enter the x coordinate that you would like to select");
-			while (!int.TryParse(Console.ReadLine(), out x))
-            {
-				while (x >= 6 | x <= 1)
+			Console.WriteLine("Please enter the x coordinate that you would like to select");
+			while (!int.TryParse(Console.ReadLine(), out x) | (x >= 6 | x <= 1))
+			{
+				{ Console.WriteLine("Please enter an valid integer between 1 and 6."); }
+			}
+
+			Console.WriteLine("Please enter the y coordinate that you would like to select between 1 and 6.");
+			while (!int.TryParse(Console.ReadLine(), out y) | (y >= 1 | y <= 6))
+			{
 				{ Console.WriteLine("Please enter an valid integer."); }
+			}
+
+			coordinates[0] = x;
+			coordinates[1] = y;
+
+			return coordinates;
+		}
+        
+        public int choose_rotation()
+		{
+            int rotation_set = new int();
+			Console.WriteLine("Which rotation do you wish to use: \n1: Up \n2: Right \n3: Down \n4; Left");
+			while (!int.TryParse(Console.ReadLine(), out rotation_set) | (rotation_set >= 1 | rotation_set <= 4))
+            {
+                { Console.WriteLine("Please enter an valid integer between 1 and 4."); }
             }
 
-            Console.WriteLine("Please enter the y coordinate that you would like to select");
-            while (!int.TryParse(Console.ReadLine(), out y))
-            {
-				while (y >= 6 | y <= 1)
-				{ Console.WriteLine("Please enter an valid integer."); }
-            }
-            
-            coordinates[0] = x;
-            coordinates[1] = y;
-
-            return coordinates;
-
+			return rotation_set;
         }
-
+        
     }
 
 }

@@ -11,7 +11,7 @@ namespace Class_Ship
     {
         //initializes all variables
         private bool Sunk { get; set; } //whether ship was sunk or not
-        private int[,] Coordinates_taken { get; set; } //which coordinates the ship takes up
+		private List<List<int>> Coordinates_taken { get; set; } //which coordinates the ship takes up
         private int Ship_type { get; set; } //what type of ship the ship is out of (1,2,3,4)
         private string Ship_type_string { get; set; } //what type of ship the ship is (Carrier, Battleship, Destroyer, Carrier
         private int Rotation { get; set; } //the rotation offset (1,2,3,4)
